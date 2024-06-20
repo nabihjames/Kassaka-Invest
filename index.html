@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/logo1.png" type="image/x-icon">
+
+    <title>KASSAKA Invest, SARL</title>
+</head>
+
+<body>  
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <img src="assets/images/logo2.png" alt="Kassaka Invest Logo" class="logo-image">
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="about.html" class="nav-link">About us</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Careers</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <div class="language-switcher">
+                    <button class="btn">EN <i class="uil uil-angle-down"></i></button>
+                    <div class="language-dropdown">
+                        <a href="#">EN</a>
+                        <a href="#">FR</a>
+                        <a href="#">PT</a>
+                    </div>
+                </div>
+                <button class="btn">Download Brochure <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+    </div>
+
+<section class="announcement-section">
+    <div class="carousel">
+        <div class="carousel-slide">
+            <img src="assets/images/an1.svg" alt="Announcement 1">
+        </div>
+        <div class="carousel-slide">
+            <img src="assets/images/an2.svg" alt="Announcement 2">
+        </div>
+        <div class="carousel-slide">
+            <img src="assets/images/an3.svg" alt="Announcement 3">
+        </div>
+    </div>
+</section>
+<script>
+    document.querySelector('.carousel').addEventListener('mouseover', () => {
+        document.querySelector('.carousel').style.animationPlayState = 'paused';
+    });
+
+    document.querySelector('.carousel').addEventListener('mouseout', () => {
+        document.querySelector('.carousel').style.animationPlayState = 'running';
+    });
+</script>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>KASSAKA Invest, SARL</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>We are <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Empowering growth through strategic investments and diverse ventures, we are your partner in building tomorrow. With a
+                        commitment to innovation and a broad portfolio, we transform visions into reality, connecting ambitions with
+                        opportunities for unified success.</p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Contact us</button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><i class="uil uil-facebook-f"></i></div>
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon"><i class="uil uil-twitter"></i></div>
+                        <div class="icon"><i class="fab fa-tiktok"></i></div>
+                        <div class="icon"><i class="uil uil-snapchat-ghost"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="assets/images/cover.png" alt="avatar">
+                    </div>
+                </div>
+                
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section about-section" id="about">
+                <div class="background-overlay"></div>
+                <div class="pattern-overlay"></div>
+                <div class="content">
+                    <div class="top-header">
+                        <h1>About us</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="about-info">
+                                <h3>Who we Are</h3>
+                                <p>At Kassaka Invest, SARL, we are dedicated to empowering growth through strategic investments and
+                                    diverse ventures, with
+                                    a primary focus on West Africa. Our mission is to build a prosperous tomorrow by investing in a
+                                    wide
+                                    range of industries
+                                    that drive innovation and development in the region. With deep roots and extensive experience in
+                                    West Africa, we
+                                    understand the unique opportunities and challenges of this dynamic market.
+                                </p>
+                                <div class="about-btn">
+                                    <button class="btn">Explore more <i class="uil uil-file"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="skills-box">
+                                <div class="skills-header">
+                                    <h3>Infrastructure</h3>
+                                </div>
+                                <div class="skills-list">
+                                    <span>Transportation</span>
+                                    <span>Utilities</span>
+                                    <span>Telecommunications</span>
+                                    <span>Urban Development</span>
+                                </div>
+                            </div>
+                            <div class="skills-box">
+                                <div class="skills-header">
+                                    <h3>Technology</h3>
+                                </div>
+                                <div class="skills-list">
+                                    <span>Information Technology</span>
+                                    <span>IT Services</span>
+                                    <span>Fintech</span>
+                                    <span>Renewable Energy Technology</span>
+                                </div>
+                            </div>
+                            <div class="skills-box">
+                                <div class="skills-header">
+                                    <h3>Industrial</h3>
+                                </div>
+                                <div class="skills-list">
+                                    <span>Manufacturing</span>
+                                    <span>Construction</span>
+                                    <span>Energy and Utilities</span>
+                                    <span>Mining and Natural Resources</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Our investments</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Completed</h3>
+                        <label>15+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Clients</h3>
+                        <label>25+ Happy Clients</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experience</h3>
+                        <label>7+ Years in the field</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- choose us ---------------- -->
+            <section class="choose-us-box" id="choose-us">
+                <div class="choose-us-grid">
+                    <div class="choose-us-image">
+                        <img src="assets/images/logo1.png" alt="Why Choose Us">
+                    </div>
+                    <div class="choose-us-info">
+                        <div class="choose-us-intro">
+                            <h2>Why Choose Us</h2>
+                            <p>At Kassaka Invest, SARL, we prioritize your success by providing unparalleled investment
+                                opportunities and strategic guidance. Here's why you should partner with us:</p>
+                        </div>
+                        <div class="choose-us-points">
+                            <ul>
+                                <li><i class="uil uil-check-circle"></i> Extensive knowledge of the West African market</li>
+                                <li><i class="uil uil-check-circle"></i> Diverse investment portfolio</li>
+                                <li><i class="uil uil-check-circle"></i> Commitment to sustainable growth</li>
+                                <li><i class="uil uil-check-circle"></i> Proven track record of success</li>
+                                <li><i class="uil uil-check-circle"></i> Strong network of industry experts</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- --------------- SUBSCRIBE SECTION --------------- -->
+            <section class="subscribe-box" id="subscribe">
+                <div class="subscribe-content">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Stay updated with the latest news and exclusive offers. Enter your email below to subscribe to our
+                        newsletter.</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn subscribe-btn">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- --------------- Blog SECTION --------------- -->
+<section class="blog-section" id="blogs">
+    <div class="top-header1">
+        <h1>Our Blog</h1>
+    </div>
+    <div class="blog-container">
+        <div class="blog-card">
+            <img src="./assets/images/b1.jpg" alt="Blog Image 1">
+            <h3>Payment Interest</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel enim a elit viverra elementum.
+            </p>
+        </div>
+        <div class="blog-card">
+            <img src="./assets/images/b2.png" alt="Blog Image 2">
+            <h3>Stock Sale</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel enim a elit viverra elementum.
+            </p>
+        </div>
+        <div class="blog-card">
+            <img src="./assets/images/b3.png" alt="Blog Image 3">
+            <h3>Smart Investments</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel enim a elit viverra elementum.
+            </p>
+        </div>
+        <div class="blog-card">
+            <img src="./assets/images/b4.png" alt="Blog Image 4">
+            <h3>Best Guidance</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel enim a elit viverra elementum.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- -------------- INVESTMENT CATEGORIES SECTION ---------------- -->
+<section class="investment-categories-box" id="investment-categories">
+    <div class="background-overlay"></div>
+    <div class="pattern-overlay"></div>
+    <div class="content">
+        <div class="top-header">
+            <h1>Investment Categories</h1>
+        </div>
+        <div class="categories-container">
+            <div class="category-card">
+                <i class="uil uil-building"></i>
+                <h3>Infrastructure</h3>
+                <p>Transportation, Utilities, Telecommunications, Urban Development</p>
+            </div>
+            <div class="category-card">
+                <i class="uil uil-desktop"></i>
+                <h3>Technology</h3>
+                <p>Information Technology, IT Services, Fintech, Renewable Energy Technology</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-industry"></i>
+                <h3>Industrial</h3>
+                <p>Manufacturing, Construction, Energy and Utilities, Mining and Natural Resources</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-bus"></i>
+                <h3>Transportation</h3>
+                <p>Parcels, Shipment, Express delivery and public transportation</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-Hospital"></i>
+                <h3>Medical Industry</h3>
+                <p>Providing medical solutions and supporting innovative projects</p>
+            </div>
+            <div class="category-card">
+                <i class="uil uil-building"></i>
+                <h3>Real Estate</h3>
+                <p>Residential, Commercial, and Industrial properties</p>
+            </div>
+            <div class="category-card">
+                <i class="uil uil-sun"></i>
+                <h3>Renewable Energy</h3>
+                <p>Solar, Wind, and Hydro power projects</p>
+            </div>
+            <div class="category-card">
+                <i class="uil uil-rocket"></i>
+                <h3>Start-ups</h3>
+                <p>Early-stage investments in innovative companies</p>
+            </div>
+            <div class="category-card">
+                <i class="uil uil-globe"></i>
+                <h3>Global Markets</h3>
+                <p>International market investments and opportunities</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- --------------- COMPANIES SECTION --------------- -->
+<section class="companies-box" id="companies">
+    <div class="companies-content">
+        <h2>Our Companies</h2>
+        <div class="companies-grid">
+            <!-- Repeat this block for each company -->
+            <div class="company-card">
+                <a href="company1.html">
+                    <img src="assets/images/logo1.png" alt="Company 1 Logo" class="company-logo">
+                    <p>Kassaka Transport / Taxi</p>
+                </a>
+            </div>
+            <!-- Add more company cards here -->
+            <div class="company-card">
+                <a href="company2.html">
+                    <img src="assets/images/logo3.png" alt="Company 2 Logo" class="company-logo">
+                    <p>Kassaka ICE</p>
+                </a>
+            </div>
+            <div class="company-card">
+                <a href="company2.html">
+                    <img src="assets/images/logo4.png" alt="Company 2 Logo" class="company-logo">
+                    <p>Kassaka Ready-Mix Concrete</p>
+                </a>
+            </div>
+            <div class="company-card">
+                <a href="company2.html">
+                    <img src="assets/images/logo3.png" alt="Company 2 Logo" class="company-logo">
+                    <p>Kassaka Automotive Services</p>
+                </a>
+            </div>
+            <div class="company-card">
+                <a href="company2.html">
+                    <img src="assets/images/logo4.png" alt="Company 2 Logo" class="company-logo">
+                    <p>Kassaka Light Industries</p>
+                </a>
+            </div>
+            <div class="company-card">
+                <a href="company2.html">
+                    <img src="assets/images/logo1.png" alt="Company 2 Logo" class="company-logo">
+                    <p>Kassaka Printing Press</p>
+                </a>
+            </div>
+            <div class="company-card">
+                <a href="company2.html">
+                    <img src="assets/images/logo4.png" alt="Company 2 Logo" class="company-logo">
+                    <p>Kassaka Amusement Park</p>
+                </a>
+            </div>
+            <div class="company-card">
+                <a href="company2.html">
+                    <img src="assets/images/logo3.png" alt="Company 2 Logo" class="company-logo">
+                    <p>Kassaka Tourism and Travel</p>
+                </a>
+            </div>
+            <div class="company-card">
+                <a href="company2.html">
+                    <img src="assets/images/logo4.png" alt="Company 2 Logo" class="company-logo">
+                    <p>Kassaka Delivery</p>
+                </a>
+            </div>
+            <div class="company-card">
+                <a href="company2.html">
+                    <img src="assets/images/logo1.png" alt="Company 2 Logo" class="company-logo">
+                    <p>Kassaka Express</p>
+                </a>
+            </div>
+            <!-- Repeat until you have 10 company cards -->
+        </div>
+    </div>
+</section>
+<!-- -------------- Reviews Section---------------- -->
+<section class="reviews-section" id="reviews">
+    <div class="reviews-overlay">
+        <div class="reviews-container">
+            <h2>What our Customers say ?</h2>
+            <div class="reviews-slider">
+                <div class="review-card">
+                    <p>"Kassaka Invest has been instrumental in our growth. Their expertise and dedication are
+                        unmatched."</p>
+                    <h3>- John Doe</h3>
+                </div>
+                <div class="review-card">
+                    <p>"Working with Kassaka Invest has been a game-changer for our business. Highly recommend them."
+                    </p>
+                    <h3>- Jane Smith</h3>
+                </div>
+                <div class="review-card">
+                    <p>"Their strategic insights and investment acumen have greatly benefited our projects."</p>
+                    <h3>- Michael Johnson</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact us here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find us <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: xxxxx@xxxx.com</p>
+                            <p><i class="uil uil-phone"></i> Tel: +250 708 770 000</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Name">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="footer-container">
+            <div class="left-footer">
+                <div class="top-footer">
+                    <p>KASSAKA Invest, SARL</p>
+                </div>
+                <div class="middle-footer">
+                    <ul class="footer-menu">
+                        <li class="footer_menu_list">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#careers">Careers</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-social-icons">
+                    <div class="icon"><i class="uil uil-facebook-f"></i></div>
+                    <div class="icon"><i class="uil uil-instagram"></i></div>
+                    <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                    <div class="icon"><i class="uil uil-twitter"></i></div>
+                    <div class="icon"><i class="fab fa-tiktok"></i></div>
+                    <div class="icon"><i class="uil uil-snapchat-ghost"></i></div>
+                </div>
+            </div>
+            <div class="right-footer">
+                <img src="assets/images/logo2.png" alt="Kassaka Invest Logo" class="footer-logo">
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; Kassaka Invest, SARL - All rights
+                reserved 2024
+            </p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
